@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<title>Statcan demo</title>
+
+<link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+
+
+<style>
+#header     { position: relative;
+height:120px;}
+#logo2 { position:absolute; bottom: 50px; left: }
+#logo1      { position: absolute; bottom: 0; right: 0}
+
+</style>
+</head>
+
+  <body>
+
+
+
+<div id="header" >
+<img id ="logo2" src="../statscanada.png" alt="Statsistic Canada" width="400.5px" height="46px">
+   <img id ="logo1" src="../ubc.png" alt="UBC"  HSPACE=”50”><br></div>
+</div>
+<ul>
+  <li><a class="active" href="../index.html">Data Model</a></li>
+
+  <li><a href="../statsdata.html">Statistics Data</a></li>
+     <li><a href="../feedback.html">Feedback</a></li>
+</ul>
+
+
+
+<div id="datamodel" class="tabcontent">
+<div>
+<h1 style="color: navy; ">Consumption Model</h1>
+</div>
+
+<div>
+
+<iframe src="../category.html?category=Consumption" width="100%" height="400px" frameBorder="0">
+</iframe>
+</div>
+<br>
+<h2 style="color: navy; "> Relationship Graphs </h2>
+
+<div id="chart" align="center">
+
+</div>
+
+<p>The data is created based on approximations and is for visualization purpose only.</p>
+
+
+
+<script src="d3.v3.min.js"></script>
+<script src="sankey.js"></script>
+<script src="javascript.js"></script>
+
+</div>
+
+
+</body>
+</html>

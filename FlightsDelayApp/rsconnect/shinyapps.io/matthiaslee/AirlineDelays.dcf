@@ -1,0 +1,13 @@
+name: AirlineDelays
+title: AirlineDelays
+username:
+account: matthiaslee
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 717097
+bundleId: 1876815
+url: https://matthiaslee.shinyapps.io/AirlineDelays/
+when: 1550172955.49222
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: delays.RDS

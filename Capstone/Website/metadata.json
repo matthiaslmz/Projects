@@ -1,0 +1,301 @@
+{
+    "ditems": [
+        {
+            "type": "ditem",
+            "name": "FOOD SUPPLY",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=food+supply\">Link<\/a> with description.",
+            "ditem": 1,
+            "date": "2012-05-05 23:50:11",
+            "slug": "ditem-one-food-supply",
+            "links": [
+                "Food production and Hunting and Harvesting",
+                "Imports",
+				 "Exports",
+				 "Wastage, non-food use, animal food",
+				 "Storage",
+				 "Available food supply Traditional foods",
+				 "Food and processing",
+				 "Transport",
+				 "Consumer and demand",
+				 "Environmental and Agricultural Influences",
+				 "Food Composition"
+
+            ]
+        },
+        {
+            "type": "ditem",
+            "name": "DISTRIBUTION",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=distribution\">Link<\/a> with description.",
+            "ditem": 2,
+            "date": "2012-05-09 15:53:27",
+            "slug": "ditem-two-distribution",
+            "links": [
+                "Food for sale intended to be eaten at home/eaten away from home Traditional foods",
+                "Food acquired",
+                "Food Composition",
+                "Transport"
+            ]
+        },
+        {
+            "type": "ditem",
+            "name": "CONSUMPTION",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=consumption\">Link<\/a> with description.",
+            "ditem": 3,
+            "date": "2012-05-14 01:10:12",
+            "slug": "ditem-three-consumption",
+            "links": [
+                "Food consumed",
+                "Nutrient & nonnutrient intakes",
+                "Access and equity issues",
+				"Education Information Advertising",
+				"Food Preference",
+				"Income",
+				"Knowledge Attitudes Beliefs Behaviours",
+				"Price",
+				"Age sex physical status activity/lifestyle drug use genetic characteristics",
+				"Contaminants in foods"
+            ]
+        },
+        {
+            "type": "ditem",
+            "name": "UTILIZATION",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/pub/32-26-0001/322600012018001-eng.htm\">Link<\/a> with description.",
+            "ditem": 4,
+            "date": "2012-05-20 15:39:43",
+            "slug": "ditem-four-utilization",
+            "links": [
+				"Nutrient & non-nutrient metabolic utilization: Nutritional Chemical and Microbial Status",
+                "Supplements and natural health products",
+				"Existing health status and nutrient requirements"
+
+            ]
+        },
+        {
+            "type": "ditem",
+            "name": "HEALTH OUTCOME",
+            "description": "<a href=\"http://ajkeen.com/\">Andrew Keen</a>, the self-professed <a href=\"https://twitter.com/#!/ajkeen\">Anti-Christ of Silicon Valley</a>, is the author of <a href=\"http://www.amazon.com/The-Cult-Amateur-user-generated-destroying/dp/0385520816/\"><em>The Cult of the Amateur</em></a> and, more recently, <a href=\"http://www.amazon.com/Digital-Vertigo-Revolution-Diminishing-Disorienting/dp/0312624980/\"><em>Digital Vertigo: How Today's Online Social Revolution is Dividing, Diminishing, and Disorienting Us</em></a>.",
+            "ditem": 5,
+            "date": "2012-05-24 10:32:01",
+            "slug": "ditem-five-health-outcome",
+            "links": [
+                "Community",
+                "Economy",
+                "Education",
+                "Equality",
+                "Happiness",
+                "Media",
+                "Sci/Tech",
+                "Anthropocentric",
+                "Biological Continuity",
+                "Collectivist"
+            ]
+        }
+    ],
+    "themes": [
+        {
+            "type": "theme",
+            "name": "Food production and Hunting and Harvesting",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=health+outcome\">Link<\/a> with description.",
+            "slug": "food-production-and-hunting-and-harvesting-2"
+        },
+        {
+            "type": "theme",
+            "name": "Imports",
+            "description": "",
+            "slug": "imports-2"
+        },
+        {
+            "type": "theme",
+            "name": "Exports",
+            "description":"<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=exports\">Link<\/a> with description.",
+            "slug": "exports-2"
+        },
+        {
+            "type": "theme",
+            "name": "Wastage non-food use animal food",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=wastage+non+food+use+animal+food\">Link<\/a> with description.",
+            "slug": "wastage-non-food-use-animal=food-2"
+        },
+        {
+            "type": "theme",
+            "name": "Storage",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=storage\">Link<\/a> with description.",
+            "slug": "storage-2"
+        },
+        {
+            "type": "theme",
+            "name": "Available food supply Traditional foods",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=Available+food+supply+Traditional+foods\">Link<\/a> with description.",
+            "slug": "available-food-supply-traditional-foods-2"
+        },
+        {
+            "type": "theme",
+            "name": "Food processing",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=food+processing\">Link<\/a> with description.",
+            "slug": "food-processing-2"
+        },
+        {
+            "type": "theme",
+            "name": "Food for sale intended to be eaten at home/eaten away from home Traditional foods",
+            "description": "",
+            "slug": "food-for-sale-intended-to-be-eaten-at-home/eaten-away-from-home-Traditional-foods-2"
+        },
+        {
+            "type": "theme",
+            "name": "Food acquired",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=food+acquired\">Link<\/a> with description.",
+            "slug": "food-acquired-2"
+        },
+        {
+            "type": "theme",
+            "name": "Food consumed",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=Food+consumed\">Link<\/a> with description.",
+            "slug": "food-consumed"
+        },
+        {
+            "type": "theme",
+            "name": "Nutrient & nonnutrient intakes",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=Nutrient+%26+non-nutrient\">Link<\/a> with description.",
+            "slug": "nutrient-nonnutrient-intakes-2"
+        },
+        {
+            "type": "theme",
+            "name": "Nutrient non-nutrient metabolic utilization: Nutritional Chemical and Microbial Status",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=Nutrient+%26+non-nutrient\">Link<\/a> with description.",
+            "slug": "nutrient-non-nutrient-metabolic-utilization-nutritional-chemical-and-microbial-status-2"
+        },
+        {
+            "type": "theme",
+            "name": "Supplements and natural health products",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=Supplements++and+natural++health+products\">Link<\/a> with description.",
+            "slug": "supplements-and-natural-health-products"
+        },
+        {
+            "type": "theme",
+            "name": "Genetic expression",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=Genetic +expression\">Link<\/a> with description.",
+            "slug": "genetic-expression-2"
+        },
+        {
+            "type": "theme",
+            "name": "Health status outcomes morbidity mortality",
+            "description": "<a href=\"https://www150.statcan.gc.ca/n1/en/type/data?text=Health+status+outcomes\">Link<\/a> with description.",
+            "slug": "health-status-outcomes-morbidity-mortality-2"
+        
+        }
+    ],
+    "perspectives": [
+        {
+            "type": "perspective",
+            "name": "Access and equity issues",
+            "description": "yet to add",
+            "slug": "access-and-equity-issues",
+            "count": "1",
+            "group": "281"
+        },
+        {
+            "type": "perspective",
+            "name": "Age sex physical status activity/lifestyle drug use genetic characteristics",
+            "description": "yet to add description",
+            "count": "26",
+            "group": "281"
+        },
+        {
+            "type": "perspective",
+            "name": "Consumer demand",
+            "description": "yet to add.",
+            "slug": "consumer-demand",
+            "count": "21",
+            "group": "284"
+        },
+        {
+            "type": "perspective",
+            "name": "Contaminants in foods",
+            "description": "yet to add.",
+            "slug": "contaminants-in-foods",
+            "count": "9",
+            "group": "284"
+        },
+        {
+            "type": "perspective",
+            "name": "Education Information Advertising",
+            "description": "yet to add.",
+            "slug": "education-information-advertising",
+            "count": "11",
+            "group": "287"
+        },
+        {
+            "type": "perspective",
+            "name": "Environmental and Agricultural Influences",
+            "description": "yet to add.",
+            "slug": "environmental-and-agricultural-influences",
+            "count": "22",
+            "group": "287"
+        },
+        {
+            "type": "perspective",
+            "name": "Existing health status and nutrient requirements",
+            "description": "yet to add.",
+            "slug": "existing-health-status-and-nutrient-requirements",
+            "count": "17",
+            "group": "290"
+        },
+        {
+            "type": "perspective",
+            "name": "Food Preference",
+            "description": "yet to add.",
+            "slug": "food-preference-2",
+            "count": "15",
+            "group": "290"
+        },
+        {
+            "type": "perspective",
+            "name": "Food Composition",
+            "description": "yet to add.",
+            "slug": "food-composition",
+            "count": "17",
+            "group": "306"
+        },
+        {
+            "type": "perspective",
+            "name": "Housing sanitation occupation services",
+            "description": "yet to add.",
+            "slug": "housing-sanitation-occupation-services",
+            "count": "16",
+            "group": "306"
+        },
+        {
+            "type": "perspective",
+            "name": "Income",
+            "description": "yet to add.",
+            "slug": "income",
+            "count": "3",
+            "group": "1259"
+        },
+        {
+            "type": "perspective",
+            "name": "Knowledge Attitudes Beliefs Behaviours",
+            "description": "yet to add.",
+            "slug": "knowledge-attitudes-beliefs-behaviours",
+            "count": "25",
+            "group": "1259"
+        },
+        {
+            "type": "perspective",
+            "name": "Price",
+            "description": "yet to add.",
+			"slug": "price-2",
+            "count": "6",
+            "group": "1261"
+        },
+        {
+            "type": "perspective",
+            "name": "Transport",
+            "description": "yet to add.",
+            "slug": "transport",
+            "count": "4",
+            "group": "1261"
+
+        }
+    ]
+}

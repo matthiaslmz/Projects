@@ -1,0 +1,25 @@
+{
+"nodes":[
+
+{"name":"Nutrient & non-nutrient metabolic utilization:","urln":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword=Nutrient+and+non-nutrient"},
+{"name":"Supplements and natural health products","urln":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword=Supplements+and+natural+health+products"},
+{"name":"Genetic expression","urln":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword=Genetic+expression"},
+{"name":"Health status, outcomes morbidity, mortality","urln":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword=Health+status+outcomes"},
+{"name":"Housing, sanitation, occupation, services","urln":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword=Housing+sanitation"},
+{"name":"Food Preference","urln":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword=Food+Preference"}
+],
+
+"links":[
+
+{"source": 0 ,"target": 2 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword="},
+{"source": 1 ,"target": 0 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword="},
+{"source": 2 ,"target": 3 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword="},
+{"source": 0 ,"target": 3 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword="},
+{"source": 1 ,"target": 2 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword="},
+{"source": 1 ,"target": 3 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword="},
+{"source": 4 ,"target": 3 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword="},
+{"source": 4 ,"target": 5 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=health+outcome&keyword="}
+
+
+]
+}

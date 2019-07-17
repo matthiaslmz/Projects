@@ -1,0 +1,31 @@
+{
+"nodes":[
+{"name":"Food acquired","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Food Acquired"},
+{"name":"Food consumed","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Food consumed"},
+{"name":"Nutrient & nonnutrient intakes","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Nutrient & nonnutrient intakes"},
+{"name":"Access and equity issues","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Access and equity issues"},
+{"name":"Education Information Advertising","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Education Information Advertising"},
+{"name":"Knowledge Attitudes Beliefs Behaviours","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Knowledge Attitudes Beliefs Behaviours"},
+{"name":"Food Preference","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Preference"},
+{"name":"Income","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Income"},
+{"name":"Price","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Price"},
+{"name":"Consumer demand","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Consumer demand"},
+{"name":"Environmental and Agricultural Influences","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Environmental and Agricultural Influences"},
+{"name":"Food production Hunting and Harvesting","urln":"statisticcanada.github.io/statsdata.html?category=consumption&keyword=Food+production+Hunting+and+Harvesting"}
+],
+"links":[
+
+{"source": 0 ,"target": 1 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 1 ,"target": 2 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 3 ,"target": 1 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 4 ,"target": 5 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 4 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 5 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 7 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 8 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 7 ,"target": 8 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 6 ,"target": 9 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 9 ,"target": 10 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="},
+{"source": 10 ,"target": 11 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=consumption&keyword="}
+
+]}

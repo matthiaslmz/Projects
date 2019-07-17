@@ -1,0 +1,28 @@
+{
+"nodes":[
+
+{"name":"Food consumed","urln":"statisticcanada.github.io/statsdata.html?category=utilization&keyword=Food consumed"},
+{"name":"Nutrient & nonnutrient intakes","urln":"statisticcanada.github.io/statsdata.html?category=utilization&keyword=Nutrient & nonnutrient intakes"},
+{"name":"Nutrient & non-nutrient metabolic utilization:","urln":"statisticcanada.github.io/statsdata.html?category=utilization&keyword=Nutrient and non-nutrient"},
+{"name":"Supplements and natural health products","urln":"statisticcanada.github.io/statsdata.html?category=utilization&keyword=Supplements and natural health products"},
+{"name":"Food Preference","urln":"statisticcanada.github.io/statsdata.html?category=utilization&keyword=Food Preference"},
+{"name":"Age, sex, physical status, activity/lifestyle","urln":"statisticcanada.github.io/statsdata.html?category=utilization&keyword=Age, sex, physical status, activity/lifestyle"},
+{"name":"Existing health status and nutrient requirements","urln":"statisticcanada.github.io/statsdata.html?category=utilization&keyword=Existing health status and nutrient requirements"},
+{"name":"Contaminants in foods","urln":"statisticcanada.github.io/statsdata.html?category=utilization&keyword=Contaminants in foods"}
+
+],
+
+"links":[
+{"source": 0 ,"target": 1 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=utilization&keyword="},
+{"source": 1 ,"target": 2 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=utilization&keyword="},
+{"source": 3 ,"target": 1 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=utilization&keyword="},
+{"source": 3 ,"target": 2 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=utilization&keyword="},
+{"source": 4 ,"target": 5 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=utilization&keyword="},
+{"source": 5 ,"target": 6 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=utilization&keyword="},
+{"source": 6 ,"target": 2 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=utilization&keyword="},
+{"source": 5 ,"target": 1 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=utilization&keyword="},
+{"source": 7 ,"target": 1 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=utilization&keyword="}
+
+
+]
+}

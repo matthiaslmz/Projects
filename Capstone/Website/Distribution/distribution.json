@@ -1,0 +1,29 @@
+{
+"nodes":[
+{"name":"Available food supply + Traditional foods","urln":"statisticcanada.github.io/statsdata.html?category=distribution&keyword=Available food supply + Traditional foods"},
+{"name":"Food for sale, intended to be eaten at home/eaten","urln":"statisticcanada.github.io/statsdata.html?category=distribution&keyword=Food for sale"},
+{"name":"Food acquired","urln":"statisticcanada.github.io/statsdata.html?category=distribution&keyword=Food acquired"},
+{"name":"Transport","urln":"statisticcanada.github.io/statsdata.html?category=distribution&keyword=Transport"},
+{"name":"Food Composition","urln":"statisticcanada.github.io/statsdata.html?category=distribution&keyword=Food Composition"}
+
+],
+
+
+
+
+
+
+
+"links":[
+
+{"source": 0 ,"target": 1 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=distribution&keyword="},
+{"source": 1 ,"target": 2 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=distribution&keyword="},
+{"source": 3 ,"target": 1 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=distribution&keyword="},
+{"source": 4 ,"target": 1 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=distribution&keyword="},
+{"source": 4 ,"target": 0 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=distribution&keyword="}
+
+
+
+
+
+]}

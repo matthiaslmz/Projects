@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Statcan demo</title>
+
+<head>
+        <style type="text/css">
+            body, html
+            {
+               height: 100%; 
+            }
+
+.left{
+  float:left;
+}
+.right{
+    float:right;
+}
+
+div.wrap {
+    overflow:hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  color: black;
+  
+}
+
+.active {
+  background-color: lightblue;
+  color: black;
+}
+div.absolute {
+  position: absolute;
+  bottom: 10px;
+  align="right";
+}
+#header     { position: relative;
+height:120px;}
+#logo2 { position:absolute; bottom: 50px; left: }
+#logo1      { position: absolute; bottom: 0; right: 0}
+
+</style>
+</head>
+
+  <body>
+
+
+
+<div id="header" >
+<img id ="logo2" src="statscanada.png" alt="Statsistic Canada" width="400.5px" height="46px">
+   <img id ="logo1" src="ubc.png" alt="UBC"  HSPACE=”50”><br>
+</div>
+<ul>
+  <li><a href="index.html">Data Model</a></li>
+  <li><a href="statsdata.html">Statistics Data</a></li>
+     <li><a class="active" href="feedback.html">Feedback</a></li>
+</ul>
+
+
+<div align="right" class="absolute">
+<p>We will be happy to get some feedback from you.</p>
+<iframe align="right"
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/93cece62-8882-4f4b-8458-100f11004ce3">
+</iframe>
+ 
+</div>
+</body>
+</html>

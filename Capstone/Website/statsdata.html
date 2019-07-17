@@ -1,0 +1,383 @@
+<!DOCTYPE html><html lang='en' class=''>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style  type="text/css"> 
+body {
+  
+  background-color: white;
+}
+#mylist {
+  width:750px;   
+}
+#title {
+  color: white;
+  text-align: center;
+}
+.row:after, .u-cf {
+    content: "";
+    display: table;
+    clear: both;
+}
+table {
+  font-family:monospace;
+  margin: 0 auto;
+  overflow:auto;
+  align:center;
+  display:block;
+  overflow:auto;
+  height:800px;
+  width:100%;
+}
+th {
+  padding: 1em;
+  
+  text-align: left; min-width: 0px; max-width: 280px; white-space: normal; 
+  background-color: rgb(0, 0, 51); 
+  color: white; 
+  border-top: 1px solid rgb(211, 211, 211);
+  border-left: 1px solid rgb(211, 211, 211); 
+  border-right: 1px solid rgb(211, 211, 211);
+}
+td {
+text-align: left; min-width: 0px; max-width: 280px; white-space: normal; 
+background-color: rgb(0, 0, 51); color: white; border-color: rgb(211, 211, 211); 
+border-style: solid; border-width: 1px;"
+}
+.filter {width:100%;
+background-color:white;
+height:100px;
+}
+.filterth {
+  white-space: normal; 
+  background-color: white;
+  width:100px;
+}
+.left{
+  float:left;
+}
+.right{
+    float:right;
+}
+.six.columns { width: 48%;}
+div.wrap {
+    overflow:hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: white;
+  color: black;
+  
+}
+.active {
+  background-color: lightblue;
+  color: black;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: navy;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+}
+
+</style>
+<style  type="text/css">
+#header     { position: relative;
+height:120px;}
+#logo2 { position:absolute; bottom: 50px; left: }
+#logo1      { position: absolute; bottom: 0; right: 0}
+
+</style>
+</head>
+
+  <body>
+
+
+
+<div id="header" >
+<img id ="logo2" src="statscanada.png" alt="Statsistic Canada" width="400.5px" height="46px">
+   <img id ="logo1" src="ubc.png" alt="UBC"  HSPACE=”50”><br></div>
+</div>
+
+
+<ul>
+  <li><a class="active" href="index.html">Data Model</a></li>
+  <li><a href="statsdata.html">Statistics Data</a></li>
+     <li><a href="feedback.html">Feedback</a></li>
+</ul>
+
+
+
+
+<div id="datamodel" class="tabcontent">
+<br>
+<div>
+<h1 style="color: navy; ">Data</h1>
+</div>
+	
+<div>
+<p align='left'><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Category:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Keyword:</b></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select  id="mylist" onchange="myFunction()" >
+<option>Supply</option>
+<option>Distribution</option>
+<option>Consumption</option>
+<option>Utilization</option>
+<option>Health Outcome</option>
+</select>
+
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="hidden" id="custId" onkeyup='searchTable()' type='text' >
+<input align="right" size="60" id='myInput' onkeyup='searchTable()' type='text' Placeholder='Enter a keyword.. e.g., nutrition'>
+</div>
+
+ <div id="viz" style="overflow:auto;" align="center" width="100%">
+</div>
+
+
+
+
+<script src='https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js'>
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.min.js'>
+</script>
+<script id="rendered-js">
+const url = "Categorized_Links.csv";
+const rowTemplate = ({ Title, Description, Link, Category, Subcategory, Source }) => {
+  return `
+  <td >${Title}</td> 
+  <td >${Description}</td> 
+  <td > <a href=${Link} target="_top"> ${Link} </a></td> 
+  <td >${Category}</td>  
+  
+ <td>${Subcategory}</td> 
+ <td>${Source}</td>`
+ ;};
+// read data from the url
+d3.csv(url, (err, csv) => {
+  // change header names, and do some cleanup
+  const data = csv.map(d => {
+    // get medal data as numbers, not strings
+    const medals = {
+      Title: d.Title,
+      Description: d.Description,
+      Link:d.Link,
+	  Category: d.Category,
+      Subcategory: d.Subcategory, 
+	  Source:d.Source
+	  
+	  };
+    // use object spread to pass medal data
+    // instead of the given value, compute total ourselves
+    return {
+      ...medals };
+  });
+  // the order we want the table headers
+  // note these are not the same as the object names
+  data.columns = ["Title", "Description", "Link", "Category", "Subcategory", "Source"];
+  // select viz and append table
+  const table = d3.select("#viz").append("table").attr("id", "mytable");
+  // append headers
+  const header = table.
+  append("thead").
+  selectAll("th").
+  data(data.columns).
+  enter().
+  append("th").
+  text(d => d);
+  // append rows with rowTemplate
+  const rows = table.
+  append("tbody").
+  selectAll("tr").
+  data(data).
+  enter().
+  append("tr").
+  html(rowTemplate);
+});
+          //# sourceURL=pen.js
+        </script>
+		
+<script>
+function searchTable() {
+    var input, filter, found, table, tr, td, i, j;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("mytable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td");
+        for (j = 0; j < td.length; j++) {
+            if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                found = true;
+            }
+        }
+        if (found) {
+            tr[i].style.display = "";
+            found = false;
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+}
+ function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("mylist");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("mytable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[3];
+    if (td) {
+     txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+} 
+ function hidden() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("custId");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("mytable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[3];
+    if (td) {
+     txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+} 
+</script>	
+
+
+<script>
+ window.onload=function(){ 
+ function getAllUrlParams(url) {
+  // get query string from url (optional) or window
+  var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+  // we'll store the parameters here
+  var obj = {};
+  // if query string exists
+  if (queryString) {
+    // stuff after # is not part of query string, so get rid of it
+    queryString = queryString.split('#')[0];
+    // split our query string into its component parts
+    var arr = queryString.split('&');
+    for (var i = 0; i < arr.length; i++) {
+      // separate the keys and the values
+      var a = arr[i].split('=');
+      // set parameter name and value (use 'true' if empty)
+      var paramName = a[0];
+      var paramValue = typeof (a[1]) === 'undefined' ? true : a[1];
+      // (optional) keep case consistent
+      paramName = paramName.toLowerCase();
+      if (typeof paramValue === 'string') paramValue = paramValue.toLowerCase();
+      // if the paramName ends with square brackets, e.g. colors[] or colors[2]
+      if (paramName.match(/\[(\d+)?\]$/)) {
+        // create key if it doesn't exist
+        var key = paramName.replace(/\[(\d+)?\]/, '');
+        if (!obj[key]) obj[key] = [];
+        // if it's an indexed array e.g. colors[2]
+        if (paramName.match(/\[\d+\]$/)) {
+          // get the index value and add the entry at the appropriate position
+          var index = /\[(\d+)\]/.exec(paramName)[1];
+          obj[key][index] = paramValue;
+        } else {
+          // otherwise add the value to the end of the array
+          obj[key].push(paramValue);
+        }
+      } else {
+        // we're dealing with a string
+        if (!obj[paramName]) {
+          // if it doesn't exist, create property
+          obj[paramName] = paramValue;
+        } else if (obj[paramName] && typeof obj[paramName] === 'string'){
+          // if property does exist and it's a string, convert it to an array
+          obj[paramName] = [obj[paramName]];
+          obj[paramName].push(paramValue);
+        } else {
+          // otherwise add the property
+          obj[paramName].push(paramValue);
+        }
+      }
+    }
+  }
+  return obj;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ var uc = getAllUrlParams().keyword;
+ var cat = getAllUrlParams().category;
+ decodeURIComponent((uc + '').replace(/\+/g, '%20'));
+ 
+ 
+ if( uc==null){ 
+ }else{ 
+ document.getElementById('myInput').value =  decodeURIComponent((uc + '').replace(/\+/g, '%20')); 
+ searchTable()
+ } 
+ 
+  if( cat==null){ 
+ }else{ 
+ document.getElementById('custId').value =  decodeURIComponent((cat + '').replace(/\+/g, '%20')); 
+ hidden()
+ } 
+ 
+ } 
+ 
+ 
+ 
+ 
+ 
+ 
+ </script>	
+
+ 
+ 
+</body></html>

@@ -1,0 +1,38 @@
+{
+"nodes":[
+{"name":"Food production Hunting and Harvesting","urln":"karunalakhani.github.io/statsdata.html?category=supply&keyword=Food+production+Hunting+and+Harvesting"},
+{"name":"Imports","urln":"statisticcanada.github.io/statsdata.html?category=supply&keyword=Imports"},
+{"name":"Exports","urln":"statisticcanada.github.io/statsdata.html?category=supply&keyword=Exports"},
+{"name":"Wastage, non-food use, animal food","urln":"statisticcanada.github.io/statsdata.html?category=supply&keyword=Wastage+non-food use, animal food"},
+{"name":"Storage","urln":"statisticcanada.github.io/statsdata.html?category=supply&keyword=Storage"},
+{"name":"Available food supply + Traditional foods","urln":"statisticcanada.github.io/statsdata.html?category=supply&keyword=Available food supply + Traditional foods"},
+{"name":"Food Processing","urln":"statisticcanada.github.io/statsdata.html?category=supply&keyword=Food Processing"},
+{"name":"Health status, outcomes morbidity, mortality","urln":"statisticcanada.github.io/statsdata.html?category=supply&keyword=Health status, outcomes morbidity, mortality"},
+{"name":"Environmental and Agricultural Influences","urln":"statisticcanada.github.io/statsdata.html?category=supply&keyword=Environmental and Agricultural Influences"},
+{"name":"Transport","urln":"statisticcanada.github.io/statsdata.html?category=supply&keyword=Transport"}
+
+],
+
+
+
+
+
+
+
+"links":[
+
+{"source": 0 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=supply&keyword="},
+{"source": 1 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=supply&keyword="},
+{"source": 2 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=supply&keyword="},
+{"source": 3 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=supply&keyword="},
+{"source": 4 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=supply&keyword="},
+{"source": 5 ,"target": 6 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=supply&keyword="},
+{"source": 6 ,"target": 7 ,"value": 200 , "url":"statisticcanada.github.io/statsdata.html?category=supply&keyword="},
+{"source": 6 ,"target": 8 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=supply&keyword="},
+{"source": 9 ,"target": 0 ,"value": 500 , "url":"statisticcanada.github.io/statsdata.html?category=supply&keyword="}
+
+
+
+
+
+]}
