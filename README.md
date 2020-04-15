@@ -1,7 +1,9 @@
 # MiscalleanousProj
 This repo contains past and current personal projects.
 
-[Capstone](https://statisticcanada.github.io/). Explore the website to see what is done for the capstone!
+[BERT For Punctuation Restoration](https://github.com/matthiaslmz/BERT-Punctuation-Restoration). Fine-tuned BERT on conversational data
+
+[Capstone](https://statisticcanada.github.io/). 
 
 [Yelp App](https://github.com/matthiaslmz/MiscalleanousProj/tree/master/YelpApp). Check out the app at https://dash-yelp.herokuapp.com/. An interactive Dash app that shows local businesses in the top 15 cities with the most reviews (Round 13 Yelp Dataset Challenge)
 
