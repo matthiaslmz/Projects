@@ -37,10 +37,20 @@ def tokenize(review):
         tokens.append(clean_preprocess(review.values[i]))
     return tokens
 
+def labelize_reviews(reviews, label):
+    for index, review in zip(reviews.index, reviews):
+        yield TaggedDocument(review.split(), [label + '_%s' % index ])
 
-def labelize_reviews(reviews,label):
-    result = []
-    prefix = label
-    for i, j in zip(reviews.index,reviews):
-        result.append(TaggedDocument(j.split(),[prefix + '_%s' % i ]))
-    return result
+def get_learned_vectors(model,corpus):
+    """
+    A function that extracts document vectors from a TRAINED Doc2Vec model
+    
+    model: Trained Doc2Vec model 
+    """
+    vecs = [model.docvecs['all_'+str(ind)] for ind, doc in corpus.iteritems()]
+    
+    return vecs
+
+def labelize_reviews_bg(reviews, label, phraser):
+    for index, review in zip(reviews.index, reviews):
+        yield TaggedDocument(phraser[review.split()], [labels + '_%s' % index ])
