@@ -53,4 +53,4 @@ def get_learned_vectors(model,corpus):
 
 def labelize_reviews_bg(reviews, label, phraser):
     for index, review in zip(reviews.index, reviews):
-        yield TaggedDocument(phraser[review.split()], [labels + '_%s' % index ])
+        yield TaggedDocument(phraser[review.split()], [label + '_%s' % index ])
